@@ -94,7 +94,7 @@ const Index = () => {
       <div className="relative overflow-hidden bg-gradient-to-b from-primary/5 to-background">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iaHNsKDE0NSw2NSUsNDUlKSIgc3Ryb2tlLXdpZHRoPSIwLjUiIG9wYWNpdHk9IjAuMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-40" />
         
-        <div className="container relative mx-auto px-4 py-16 md:py-24">
+        <div className="container relative mx-auto px-4 py-16 md:py-16">
           <div className="flex flex-col items-center text-center max-w-3xl mx-auto">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 border border-primary/20 rounded-full mb-6">
               <Leaf className="w-4 h-4 text-primary" />
@@ -102,8 +102,7 @@ const Index = () => {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-              Recycle <span className="text-primary">Smarter</span>
-              <br />Not Harder
+              Recycle<span className="text-primary">Now</span>
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl">
@@ -115,7 +114,7 @@ const Index = () => {
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-12 md:py-8">
         <div className="max-w-4xl mx-auto">
           {!selectedImage ? (
             <Card className="p-8 md:p-12 border-2 border-dashed border-border hover:border-primary/50 transition-colors">
@@ -234,7 +233,7 @@ const Index = () => {
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">Capture</h3>
                 <p className="text-sm text-muted-foreground">
-                  Take a photo of any recyclable material or trash item
+                  Take a photo of any recyclable/non-recyclable material
                 </p>
               </Card>
 
